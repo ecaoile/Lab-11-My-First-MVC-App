@@ -1,0 +1,11 @@
+C:\Users\Unfie\codefellows\401\Lab-11-My-First-MVC-App\Lab_11_First_MVC_App\Lab_11_First_MVC_App\bin\Debug\netcoreapp2.1\Lab_11_First_MVC_App.deps.json
+C:\Users\Unfie\codefellows\401\Lab-11-My-First-MVC-App\Lab_11_First_MVC_App\Lab_11_First_MVC_App\bin\Debug\netcoreapp2.1\Lab_11_First_MVC_App.runtimeconfig.json
+C:\Users\Unfie\codefellows\401\Lab-11-My-First-MVC-App\Lab_11_First_MVC_App\Lab_11_First_MVC_App\bin\Debug\netcoreapp2.1\Lab_11_First_MVC_App.runtimeconfig.dev.json
+C:\Users\Unfie\codefellows\401\Lab-11-My-First-MVC-App\Lab_11_First_MVC_App\Lab_11_First_MVC_App\bin\Debug\netcoreapp2.1\Lab_11_First_MVC_App.dll
+C:\Users\Unfie\codefellows\401\Lab-11-My-First-MVC-App\Lab_11_First_MVC_App\Lab_11_First_MVC_App\bin\Debug\netcoreapp2.1\Lab_11_First_MVC_App.pdb
+C:\Users\Unfie\codefellows\401\Lab-11-My-First-MVC-App\Lab_11_First_MVC_App\Lab_11_First_MVC_App\obj\Debug\netcoreapp2.1\Lab_11_First_MVC_App.csprojAssemblyReference.cache
+C:\Users\Unfie\codefellows\401\Lab-11-My-First-MVC-App\Lab_11_First_MVC_App\Lab_11_First_MVC_App\obj\Debug\netcoreapp2.1\Lab_11_First_MVC_App.csproj.CoreCompileInputs.cache
+C:\Users\Unfie\codefellows\401\Lab-11-My-First-MVC-App\Lab_11_First_MVC_App\Lab_11_First_MVC_App\obj\Debug\netcoreapp2.1\Lab_11_First_MVC_App.AssemblyInfoInputs.cache
+C:\Users\Unfie\codefellows\401\Lab-11-My-First-MVC-App\Lab_11_First_MVC_App\Lab_11_First_MVC_App\obj\Debug\netcoreapp2.1\Lab_11_First_MVC_App.AssemblyInfo.cs
+C:\Users\Unfie\codefellows\401\Lab-11-My-First-MVC-App\Lab_11_First_MVC_App\Lab_11_First_MVC_App\obj\Debug\netcoreapp2.1\Lab_11_First_MVC_App.dll
+C:\Users\Unfie\codefellows\401\Lab-11-My-First-MVC-App\Lab_11_First_MVC_App\Lab_11_First_MVC_App\obj\Debug\netcoreapp2.1\Lab_11_First_MVC_App.pdb

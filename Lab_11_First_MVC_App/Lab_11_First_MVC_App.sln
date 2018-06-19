@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab_11_First_MVC_App", "Lab_11_First_MVC_App\Lab_11_First_MVC_App.csproj", "{A9FA5CEC-08F2-420B-BA7B-393483B8EE4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AC365B49-CCEB-49B5-99D8-25D6F512D672}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9FA5CEC-08F2-420B-BA7B-393483B8EE4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9FA5CEC-08F2-420B-BA7B-393483B8EE4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9FA5CEC-08F2-420B-BA7B-393483B8EE4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9FA5CEC-08F2-420B-BA7B-393483B8EE4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85A06128-F377-404B-8200-5C66DF3F6980}
+	EndGlobalSection
+EndGlobal
