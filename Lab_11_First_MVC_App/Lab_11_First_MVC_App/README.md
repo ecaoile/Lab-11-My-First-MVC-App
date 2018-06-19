@@ -13,7 +13,7 @@ end year. They are taken to a page with a listing shown as a table.
 The following is required to run the program.
 1. Visual Studio 2017 
 2. The .NET desktop development workload enabled
-3. no external packages required for this application
+3. <b>NewtonSoftJson (external NuGet package) required for this application.</b>
 
 ## Example
 ![Lab 11 Screenshot 1](Lab11-SS1.jpg)
@@ -33,9 +33,6 @@ This application is created using ASP.NET Core 2.1 Web Application <br />
 
 ## Change Log
 06-19-2018 9:00 AM - initial scaffolding <br />
-06-19-2018 11:00 AM - time person class and filter created<br />
-06-19-2018 1:00 PM - wired up home page with search results<br />
-06-19-2018 4:00 PM - added styling to both pages<br />
 
 
 

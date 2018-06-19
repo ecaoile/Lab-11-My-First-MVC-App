@@ -24,13 +24,24 @@ namespace Lab_11_First_MVC_App.Models
         public string Category { get; set; }
         public string Context { get; set; }
 
-
+        /// <summary>
+        /// creates a list full of TimePerson objects
+        /// </summary>
+        /// <param name="begYear">beginning year to filter list</param>
+        /// <param name="endYear">end year to filter list</param>
+        /// <returns>filtered list of TimePerson objects</returns>
         public List<TimePerson> GetPeople(int begYear, int endYear)
         {
             // creates a list of TimePerson objects
             List<TimePerson> mahPeepz = new List<TimePerson>();
+            
+            // sets up the current directory to work with the incoming .csv file
             string datPath = Environment.CurrentDirectory;
+
+            // creates a new path that is easier to use with other queries
             string newPath = Path.GetFullPath(Path.Combine(datPath, @"wwwroot\personOfTheYear.csv"));
+           
+            // creates a string array of each line of the .csv file
             string[] myFile = File.ReadAllLines(newPath);
 
             // for loop that traverses the .csv file and grabs certain parts of the text to make each person object
@@ -38,6 +49,8 @@ namespace Lab_11_First_MVC_App.Models
             {
                 //splits each field in a line by comma
                 string[] fields = myFile[i].Split(',');
+
+                //creates a new TimePerson object for each line
                 mahPeepz.Add(new TimePerson
                 {
                     Year = Convert.ToInt32(fields[0]),

@@ -35,12 +35,6 @@ th {
   font-size:.9em;
 }
 
-/* unique font for locations */
-th.salesLoc {
-  color: #00592F;
-  font-family: 'Roboto', sans-serif;
-  font-size:1em;
-}
 
 /* alternating colors for data rows */
 tr:nth-child(even) {
