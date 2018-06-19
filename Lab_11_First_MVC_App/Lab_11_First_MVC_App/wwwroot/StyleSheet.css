@@ -1,0 +1,56 @@
+﻿/*body {
+}*/
+
+th, tr, td {
+  border: 2px solid #757575;
+  border-spacing: 50px;
+  padding: .75em;
+}
+
+table {
+    background-color: #ff8080;
+    border: 3px solid #757575;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* unique font for data */
+td  {
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-size: .9em;
+}
+
+th {
+  color:#000;
+  font-family: 'Noto Serif', serif;
+  font-size:.9em;
+}
+
+/* unique font for locations */
+th.salesLoc {
+  color: #00592F;
+  font-family: 'Roboto', sans-serif;
+  font-size:1em;
+}
+
+/* alternating colors for data rows */
+tr:nth-child(even) {
+    background-color: #ffcccc;
+}
+
+th, tr:first-child {
+    background-color: #e6e6e6;
+}
+
+/* highlights selected data cells */
+td:hover {
+    background-color: #ff3333;
+    color:#ffffff;
+}
+
+.nav-button {
+    margin:.5em;
+    padding:.5em;
+}

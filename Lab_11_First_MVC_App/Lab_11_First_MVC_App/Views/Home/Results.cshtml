@@ -2,7 +2,13 @@
 @{
     ViewData["Title"] = "Results";
 }
-<table>
+
+<Link rel="stylesheet" href="~/StyleSheet.css" type="text/css" />
+@*<button href="Index.cshtml">Return Home</button>*@
+<form id="return-home">
+    <input type="button" class="nav-button" value="Return Home" onclick="window.location.href='/Home'" />
+</form>
+<table id=" ">
     <tr>
         <th>Year</th>
         <th>Honor</th>
@@ -14,20 +20,24 @@
         <th>Category</th>
         <th>Context</th>
     </tr>
-    @foreach(var person in Model)
+    @foreach (var person in Model)
     {
-    <tr>
-        <td>@person.Year</td>
-        <td>@person.Honor</td>
-        <td>@person.Name</td>
-        <td>@person.Country</td>
-        <td>@person.Birth_Year</td>
-        <td>@person.Death_Year</td>
-        <td>@person.Title</td>
-        <td>@person.Category</td>
-        <td>@person.Context</td>
-    </tr>
+        <tr>
+            <td>@person.Year</td>
+            <td>@person.Honor</td>
+            <td>@person.Name</td>
+            <td>@person.Country</td>
+            <td>@person.Birth_Year</td>
+            <td>@person.Death_Year</td>
+            <td>@person.Title</td>
+            <td>@person.Category</td>
+            <td>@person.Context</td>
+        </tr>
     }
 </table>
+<br/>
+<form id="return-top">
+    <input type="button" class="nav-button" value="Return to Top" onclick="window.scrollTo(0,0)" />
+</form>
 
 
