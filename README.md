@@ -36,7 +36,7 @@ This application is created using ASP.NET Core 2.1 Web Application <br />
 06-19-2018 11:00 AM - time person class and filter created<br />
 06-19-2018 1:00 PM - wired up home page with search results<br />
 06-19-2018 4:00 PM - added styling to both pages<br />
-
+06-19-2018 5:00 PM - finished readme<br />
 
 
 
