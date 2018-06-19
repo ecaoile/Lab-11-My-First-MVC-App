@@ -1,0 +1,23 @@
+﻿@model Lab_11_First_MVC_App.Models.TimePerson;
+@{
+    ViewData["Title"] = "Index";
+}
+<!-- Link stylesheet -->
+<Link rel="stylesheet" href="~/Stylesheet/.css" type="text/css" />
+<!-- Create a form that the user can interact with -->
+@ViewData["Home Page"]
+
+<h2>Time Person of the Year Database</h2>
+
+<form method="post">
+
+    <label for="begYear">Beginning Year</label>
+    <input maxLength="4" name="begYear" />
+    <br /><br />
+    <label for="endYear">End Year</label>
+    <input maxlength="4" name="endYear" />
+    <br /><br />
+    <button type="submit">Search for People</button>
+</form>
+
+
