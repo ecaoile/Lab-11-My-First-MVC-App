@@ -48,7 +48,7 @@ tr:nth-child(even) {
 }
 
 th, tr:first-child {
-    background-color: #e6e6e6;
+    background-color: #ffe6e6;
 }
 
 /* highlights selected data cells */
